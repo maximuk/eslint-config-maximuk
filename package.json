@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-maximuk",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximuk/eslint-config-maximuk.git"
+  },
+  "author": "Sergey Maksimuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximuk/eslint-config-maximuk/issues"
+  },
+  "homepage": "https://github.com/maximuk/eslint-config-maximuk#readme",
+  "peerDependencies": {
+    "babel-eslint": ">=7",
+    "eslint": ">=3",
+    "eslint-plugin-import": ">=2",
+    "eslint-plugin-react": ">=7"
+  }
+}
