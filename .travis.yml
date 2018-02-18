@@ -5,6 +5,7 @@ node_js:
 
 before_install:
   - set -e
+  - npm i babel-eslint
 
 script:
   - 'npm run check'

@@ -1,3 +1,5 @@
+[![Build Status](https://img.shields.io/travis/maximuk/eslint-config-maximuk/master.svg)](http://travis-ci.org/maximuk/eslint-config-maximuk)
+
 # ESLint config
 
 ## Installation
