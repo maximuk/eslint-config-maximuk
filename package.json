@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "check": "eslint-configurator check",
-    "update": "eslint-configurator update"
+    "update": "eslint-configurator update",
+    "prepush": "npm run check"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "eslint": ">=3"
   },
   "devDependencies": {
-    "eslint-configurator": "0.0.1"
+    "eslint-configurator": "0.0.1",
+    "husky": "^0.14.3"
   }
 }
