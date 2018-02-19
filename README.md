@@ -2,6 +2,8 @@
 
 # ESLint config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/maximuk/eslint-config-maximuk.svg)](https://greenkeeper.io/)
+
 ## Installation
 
 `npm i -D eslint-config-maximuk`
