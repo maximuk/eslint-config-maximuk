@@ -5,7 +5,7 @@ node_js:
 
 before_install:
   - 'set -e'
-  - 'npm install babel-eslint --no-save'
+  - 'npm install babel-eslint'
 
 script:
   - 'npm run check'
