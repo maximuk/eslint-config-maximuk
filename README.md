@@ -1,6 +1,8 @@
-[![Build Status](https://img.shields.io/travis/maximuk/eslint-config-maximuk/master.svg)](http://travis-ci.org/maximuk/eslint-config-maximuk)
-
 # ESLint config
+
+[![npm](https://img.shields.io/npm/v/eslint-config-maximuk.svg)](https://www.npmjs.com/package/eslint-config-maximuk)
+[![Build Status](https://img.shields.io/travis/maximuk/eslint-config-maximuk/master.svg)](http://travis-ci.org/maximuk/eslint-config-maximuk)
+[![Greenkeeper badge](https://badges.greenkeeper.io/maximuk/eslint-config-maximuk.svg)](https://greenkeeper.io/)
 
 ## Installation
 
