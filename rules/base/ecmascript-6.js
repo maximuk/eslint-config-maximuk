@@ -15,7 +15,7 @@ module.exports = {
      * https://eslint.org/docs/rules/arrow-parens
      */
     'arrow-parens': [
-      2,
+      'error',
       'as-needed',
       {
         requireForBlockBody: true,
@@ -194,19 +194,7 @@ module.exports = {
      * 🔧 enforce sorted import declarations within modules
      * https://eslint.org/docs/rules/sort-imports
      */
-    'sort-imports': [
-      'error',
-      {
-        memberSyntaxSortOrder: [
-          'all',
-          'single',
-          'multiple',
-          'none',
-        ],
-        ignoreMemberSort: false,
-        ignoreCase: true,
-      },
-    ],
+    'sort-imports': 'off',
 
     /*
      * require symbol descriptions

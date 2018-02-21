@@ -67,7 +67,7 @@ module.exports = {
      * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-equals-spacing.md
      */
     'react/jsx-equals-spacing': [
-      2,
+      'error',
       'never',
     ],
 
@@ -117,11 +117,22 @@ module.exports = {
     ],
 
     /*
+     * 🔧 Validate JSX maximum depth
+     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-max-depth.md
+     */
+    'react/jsx-max-depth': [
+      'error',
+      {
+        max: 4,
+      },
+    ],
+
+    /*
      * 🔧 Limit maximum of props on a single line in JSX
      * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-max-props-per-line.md
      */
     'react/jsx-max-props-per-line': [
-      2,
+      'error',
       {
         when: 'multiline',
         maximum: 1,
