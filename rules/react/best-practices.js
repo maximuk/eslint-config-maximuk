@@ -32,10 +32,10 @@ module.exports = {
     'react/forbid-elements': 'off',
 
     /*
-     * Forbid using another component's propTypes
+     * 🔧 Forbid using another component's propTypes
      * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/forbid-foreign-prop-types.md
      */
-    'react/forbid-foreign-prop-types': 'off',
+    'react/forbid-foreign-prop-types': 'error',
 
     /*
      * 🔧 Forbid certain propTypes

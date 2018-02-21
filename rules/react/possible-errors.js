@@ -2,6 +2,12 @@ module.exports = {
   rules: {
 
     /*
+     * 🔧 Forbid "button" element without an explicit "type" attribute
+     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/button-has-type.md
+     */
+    'react/button-has-type': 'off',
+
+    /*
      * Report missing `key` props in iterators/collection literals
      * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-key.md
      */
@@ -18,12 +24,6 @@ module.exports = {
      * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-duplicate-props.md
      */
     'react/jsx-no-duplicate-props': 'error',
-
-    /*
-     * 🔧 Forbid "button" element without an explicit "type" attribute
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/button-has-type.md
-     */
-    'react/button-has-type': 'off',
 
     /*
      * 🔧 Disallow undeclared variables in JSX

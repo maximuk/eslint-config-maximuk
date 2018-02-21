@@ -218,7 +218,7 @@ module.exports = {
      * disallow `this` keywords outside of classes or class-like objects
      * https://eslint.org/docs/rules/no-invalid-this
      */
-    'no-invalid-this': 'error',
+    'no-invalid-this': 'off',
 
     /*
      * disallow the use of the `__iterator__` property
@@ -252,8 +252,11 @@ module.exports = {
       'error',
       {
         ignore: [
+          -2,
+          -1,
           0,
           1,
+          2,
         ],
         ignoreArrayIndexes: true,
         detectObjects: false,
