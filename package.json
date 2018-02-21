@@ -23,7 +23,7 @@
     "eslint": ">=3"
   },
   "devDependencies": {
-    "eslint-configurator": "0.0.2",
+    "eslint-configurator": "0.0.3",
     "husky": "^0.14.3"
   }
 }
