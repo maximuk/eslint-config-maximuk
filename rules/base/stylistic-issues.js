@@ -592,7 +592,34 @@ module.exports = {
      * 🔧 require or disallow padding lines between statements
      * https://eslint.org/docs/rules/padding-line-between-statements
      */
-    'padding-line-between-statements': 'off',
+    'padding-line-between-statements': [
+      'error',
+      {
+        blankLine: 'always',
+        prev: 'const',
+        next: '*',
+      },
+      {
+        blankLine: 'any',
+        prev: 'const',
+        next: 'const',
+      },
+      {
+        blankLine: 'always',
+        prev: 'let',
+        next: '*',
+      },
+      {
+        blankLine: 'any',
+        prev: 'let',
+        next: 'let',
+      },
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'return',
+      },
+    ],
 
     /*
      * 🔧 require quotes around object literal property names
