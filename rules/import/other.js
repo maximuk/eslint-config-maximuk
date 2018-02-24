@@ -39,6 +39,15 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-internal-modules.md
     'import/no-internal-modules': 'off',
 
+    // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/group-exports.md
+    'import/group-exports': 'off',
+
+    /*
+     * Forbid a module from importing itself
+     * https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-self-import.md
+     */
+    'import/no-self-import': 'error',
+
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-named-default.md
     'import/no-named-default': 'error',
 
@@ -92,6 +101,9 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/prefer-default-export.md
     'import/prefer-default-export': 'error',
 
+    // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-default-export.md
+    'import/no-default-export': 'off',
+
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-dynamic-require.md
     'import/no-dynamic-require': 'off',
 
@@ -100,6 +112,9 @@ module.exports = {
 
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-unassigned-import.md
     'import/no-unassigned-import': 'off',
+
+    // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-useless-path-segments.md
+    'import/no-useless-path-segments': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/exports-last.md
     'import/exports-last': 'error',
