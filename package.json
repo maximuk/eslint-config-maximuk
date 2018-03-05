@@ -2,7 +2,7 @@
   "name": "eslint-config-maximuk",
   "version": "0.0.4",
   "description": "",
-  "main": "index.js",
+  "main": "base.js",
   "scripts": {
     "check": "eslint-configurator check",
     "update": "eslint-configurator update",

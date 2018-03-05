@@ -600,6 +600,11 @@ module.exports = {
         next: '*',
       },
       {
+        blankLine: 'always',
+        prev: '*',
+        next: 'const',
+      },
+      {
         blankLine: 'any',
         prev: 'const',
         next: 'const',
@@ -608,6 +613,11 @@ module.exports = {
         blankLine: 'always',
         prev: 'let',
         next: '*',
+      },
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'let',
       },
       {
         blankLine: 'any',
