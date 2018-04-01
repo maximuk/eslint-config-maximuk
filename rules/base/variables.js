@@ -2,8 +2,8 @@ module.exports = {
   rules: {
 
     /*
-     * 🔧 require or disallow initialization in variable declarations
-     * https://eslint.org/docs/rules/init-declarations
+     * require or disallow initialization in variable declarations
+     * 🔧 https://eslint.org/docs/rules/init-declarations
      */
     'init-declarations': 'off',
 
@@ -26,8 +26,8 @@ module.exports = {
     'no-label-var': 'error',
 
     /*
-     * 🔧 disallow specified global variables
-     * https://eslint.org/docs/rules/no-restricted-globals
+     * disallow specified global variables
+     * 🔧 https://eslint.org/docs/rules/no-restricted-globals
      */
     'no-restricted-globals': 'off',
 
@@ -38,8 +38,8 @@ module.exports = {
     'no-shadow-restricted-names': 'off',
 
     /*
-     * 🔧 disallow variable declarations from shadowing variables declared in the outer scope
-     * https://eslint.org/docs/rules/no-shadow
+     * disallow variable declarations from shadowing variables declared in the outer scope
+     * 🔧 https://eslint.org/docs/rules/no-shadow
      */
     'no-shadow': 'off',
 
@@ -49,8 +49,8 @@ module.exports = {
      */
     'no-undef-init': 'error',
 
-    // 🔧 disallow the use of undeclared variables unless mentioned in `/*global */` comments
-    // https://eslint.org/docs/rules/no-undef
+    // disallow the use of undeclared variables unless mentioned in `/*global */` comments
+    // 🔧 https://eslint.org/docs/rules/no-undef
     'no-undef': 'error',
 
     /*
@@ -60,14 +60,14 @@ module.exports = {
     'no-undefined': 'off',
 
     /*
-     * 🔧 disallow unused variables
-     * https://eslint.org/docs/rules/no-unused-vars
+     * disallow unused variables
+     * 🔧 https://eslint.org/docs/rules/no-unused-vars
      */
     'no-unused-vars': 'error',
 
     /*
-     * 🔧 disallow the use of variables before they are defined
-     * https://eslint.org/docs/rules/no-use-before-define
+     * disallow the use of variables before they are defined
+     * 🔧 https://eslint.org/docs/rules/no-use-before-define
      */
     'no-use-before-define': 'error',
   },

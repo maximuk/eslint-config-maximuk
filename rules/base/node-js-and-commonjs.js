@@ -2,8 +2,8 @@ module.exports = {
   rules: {
 
     /*
-     * 🔧 require `return` statements after callbacks
-     * https://eslint.org/docs/rules/callback-return
+     * require `return` statements after callbacks
+     * 🔧 https://eslint.org/docs/rules/callback-return
      */
     'callback-return': 'off',
 
@@ -14,20 +14,20 @@ module.exports = {
     'global-require': 'off',
 
     /*
-     * 🔧 require error handling in callbacks
-     * https://eslint.org/docs/rules/handle-callback-err
+     * require error handling in callbacks
+     * 🔧 https://eslint.org/docs/rules/handle-callback-err
      */
     'handle-callback-err': 'off',
 
     /*
-     * disallow use of the Buffer() constructor
+     * disallow use of the `Buffer()` constructor
      * https://eslint.org/docs/rules/no-buffer-constructor
      */
     'no-buffer-constructor': 'off',
 
     /*
-     * 🔧 disallow `require` calls to be mixed with regular variable declarations
-     * https://eslint.org/docs/rules/no-mixed-requires
+     * disallow `require` calls to be mixed with regular variable declarations
+     * 🔧 https://eslint.org/docs/rules/no-mixed-requires
      */
     'no-mixed-requires': 'off',
 
@@ -56,14 +56,14 @@ module.exports = {
     'no-process-exit': 'off',
 
     /*
-     * 🔧 disallow specified modules when loaded by `require`
-     * https://eslint.org/docs/rules/no-restricted-modules
+     * disallow specified modules when loaded by `require`
+     * 🔧 https://eslint.org/docs/rules/no-restricted-modules
      */
     'no-restricted-modules': 'off',
 
     /*
-     * 🔧 disallow synchronous methods
-     * https://eslint.org/docs/rules/no-sync
+     * disallow synchronous methods
+     * 🔧 https://eslint.org/docs/rules/no-sync
      */
     'no-sync': 'off',
   },

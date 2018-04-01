@@ -8,8 +8,8 @@ module.exports = {
     'for-direction': 'off',
 
     /*
-     * 🔧 enforce `return` statements in getters
-     * https://eslint.org/docs/rules/getter-return
+     * enforce `return` statements in getters
+     * 🔧 https://eslint.org/docs/rules/getter-return
      */
     'getter-return': 'error',
 
@@ -26,20 +26,20 @@ module.exports = {
     'no-compare-neg-zero': 'error',
 
     /*
-     * 🔧 disallow assignment operators in conditional expressions
-     * https://eslint.org/docs/rules/no-cond-assign
+     * disallow assignment operators in conditional expressions
+     * 🔧 https://eslint.org/docs/rules/no-cond-assign
      */
     'no-cond-assign': 'error',
 
     /*
-     * 🔧 disallow the use of `console`
-     * https://eslint.org/docs/rules/no-console
+     * disallow the use of `console`
+     * 🔧 https://eslint.org/docs/rules/no-console
      */
     'no-console': 'warn',
 
     /*
-     * 🔧 disallow constant expressions in conditions
-     * https://eslint.org/docs/rules/no-constant-condition
+     * disallow constant expressions in conditions
+     * 🔧 https://eslint.org/docs/rules/no-constant-condition
      */
     'no-constant-condition': [
       'error',
@@ -85,8 +85,8 @@ module.exports = {
     'no-empty-character-class': 'error',
 
     /*
-     * 🔧 disallow empty block statements
-     * https://eslint.org/docs/rules/no-empty
+     * disallow empty block statements
+     * 🔧 https://eslint.org/docs/rules/no-empty
      */
     'no-empty': [
       'error',
@@ -108,8 +108,8 @@ module.exports = {
     'no-extra-boolean-cast': 'error',
 
     /*
-     * 🔧 disallow unnecessary parentheses
-     * https://eslint.org/docs/rules/no-extra-parens
+     * disallow unnecessary parentheses
+     * 🔧 https://eslint.org/docs/rules/no-extra-parens
      */
     'no-extra-parens': 'off',
 
@@ -126,20 +126,20 @@ module.exports = {
     'no-func-assign': 'error',
 
     /*
-     * 🔧 disallow variable or `function` declarations in nested blocks
-     * https://eslint.org/docs/rules/no-inner-declarations
+     * disallow variable or `function` declarations in nested blocks
+     * 🔧 https://eslint.org/docs/rules/no-inner-declarations
      */
     'no-inner-declarations': 'error',
 
     /*
-     * 🔧 disallow invalid regular expression strings in `RegExp` constructors
-     * https://eslint.org/docs/rules/no-invalid-regexp
+     * disallow invalid regular expression strings in `RegExp` constructors
+     * 🔧 https://eslint.org/docs/rules/no-invalid-regexp
      */
     'no-invalid-regexp': 'error',
 
     /*
-     * 🔧 disallow irregular whitespace outside of strings and comments
-     * https://eslint.org/docs/rules/no-irregular-whitespace
+     * disallow irregular whitespace outside of strings and comments
+     * 🔧 https://eslint.org/docs/rules/no-irregular-whitespace
      */
     'no-irregular-whitespace': 'error',
 
@@ -204,14 +204,14 @@ module.exports = {
     'use-isnan': 'error',
 
     /*
-     * 🔧 enforce valid JSDoc comments
-     * https://eslint.org/docs/rules/valid-jsdoc
+     * enforce valid JSDoc comments
+     * 🔧 https://eslint.org/docs/rules/valid-jsdoc
      */
     'valid-jsdoc': 'error',
 
     /*
-     * 🔧 enforce comparing `typeof` expressions against valid strings
-     * https://eslint.org/docs/rules/valid-typeof
+     * enforce comparing `typeof` expressions against valid strings
+     * 🔧 https://eslint.org/docs/rules/valid-typeof
      */
     'valid-typeof': 'error',
   },
