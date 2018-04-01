@@ -2,8 +2,8 @@ module.exports = {
   rules: {
 
     /*
-     * 🔧 Forbid "button" element without an explicit "type" attribute
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/button-has-type.md
+     * Forbid "button" element without an explicit "type" attribute
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/button-has-type.md
      */
     'react/button-has-type': 'off',
 
@@ -14,20 +14,20 @@ module.exports = {
     'react/jsx-key': 'error',
 
     /*
-     * 🔧 Comments inside children section of tag should be placed inside braces
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-comment-textnodes.md
+     * Comments inside children section of tag should be placed inside braces
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-comment-textnodes.md
      */
     'react/jsx-no-comment-textnodes': 'error',
 
     /*
-     * 🔧 Enforce no duplicate props
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-duplicate-props.md
+     * Enforce no duplicate props
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-duplicate-props.md
      */
     'react/jsx-no-duplicate-props': 'error',
 
     /*
-     * 🔧 Disallow undeclared variables in JSX
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-undef.md
+     * Disallow undeclared variables in JSX
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-undef.md
      */
     'react/jsx-no-undef': 'error',
 
@@ -56,14 +56,14 @@ module.exports = {
     'react/no-this-in-sfc': 'error',
 
     /*
-     * 🔧 Detect unescaped HTML entities, which might represent malformed tags
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-unescaped-entities.md
+     * Detect unescaped HTML entities, which might represent malformed tags
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-unescaped-entities.md
      */
     'react/no-unescaped-entities': 'error',
 
     /*
-     * 🔧 Prevent usage of unknown DOM property
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-unknown-property.md
+     * Prevent usage of unknown DOM property
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-unknown-property.md
      */
     'react/no-unknown-property': 'error',
 
@@ -74,8 +74,8 @@ module.exports = {
     'react/react-in-jsx-scope': 'error',
 
     /*
-     * 🔧 Enforce ES5 or ES6 class for returning value in render function
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/require-render-return.md
+     * Enforce ES5 or ES6 class for returning value in render function
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/require-render-return.md
      */
     'react/require-render-return': 'error',
   },

@@ -2,8 +2,8 @@ module.exports = {
   rules: {
 
     /*
-     * 🔧 require braces around arrow function bodies
-     * https://eslint.org/docs/rules/arrow-body-style
+     * require braces around arrow function bodies
+     * 🔧 https://eslint.org/docs/rules/arrow-body-style
      */
     'arrow-body-style': [
       'error',
@@ -11,8 +11,8 @@ module.exports = {
     ],
 
     /*
-     * 🔧 require parentheses around arrow function arguments
-     * https://eslint.org/docs/rules/arrow-parens
+     * require parentheses around arrow function arguments
+     * 🔧 https://eslint.org/docs/rules/arrow-parens
      */
     'arrow-parens': [
       'error',
@@ -23,8 +23,8 @@ module.exports = {
     ],
 
     /*
-     * 🔧 enforce consistent spacing before and after the arrow in arrow functions
-     * https://eslint.org/docs/rules/arrow-spacing
+     * enforce consistent spacing before and after the arrow in arrow functions
+     * 🔧 https://eslint.org/docs/rules/arrow-spacing
      */
     'arrow-spacing': [
       'error',
@@ -41,8 +41,8 @@ module.exports = {
     'constructor-super': 'error',
 
     /*
-     * 🔧 enforce consistent spacing around `*` operators in generator functions
-     * https://eslint.org/docs/rules/generator-star-spacing
+     * enforce consistent spacing around `*` operators in generator functions
+     * 🔧 https://eslint.org/docs/rules/generator-star-spacing
      */
     'generator-star-spacing': [
       'error',
@@ -59,8 +59,8 @@ module.exports = {
     'no-class-assign': 'error',
 
     /*
-     * 🔧 disallow arrow functions where they could be confused with comparisons
-     * https://eslint.org/docs/rules/no-confusing-arrow
+     * disallow arrow functions where they could be confused with comparisons
+     * 🔧 https://eslint.org/docs/rules/no-confusing-arrow
      */
     'no-confusing-arrow': [
       'error',
@@ -82,8 +82,8 @@ module.exports = {
     'no-dupe-class-members': 'error',
 
     /*
-     * 🔧 disallow duplicate module imports
-     * https://eslint.org/docs/rules/no-duplicate-imports
+     * disallow duplicate module imports
+     * 🔧 https://eslint.org/docs/rules/no-duplicate-imports
      */
     'no-duplicate-imports': 'error',
 
@@ -94,8 +94,8 @@ module.exports = {
     'no-new-symbol': 'error',
 
     /*
-     * 🔧 disallow specified modules when loaded by `import`
-     * https://eslint.org/docs/rules/no-restricted-imports
+     * disallow specified modules when loaded by `import`
+     * 🔧 https://eslint.org/docs/rules/no-restricted-imports
      */
     'no-restricted-imports': 'off',
 
@@ -118,8 +118,8 @@ module.exports = {
     'no-useless-constructor': 'error',
 
     /*
-     * 🔧 disallow renaming import, export, and destructured assignments to the same name
-     * https://eslint.org/docs/rules/no-useless-rename
+     * disallow renaming import, export, and destructured assignments to the same name
+     * 🔧 https://eslint.org/docs/rules/no-useless-rename
      */
     'no-useless-rename': 'error',
 
@@ -130,8 +130,8 @@ module.exports = {
     'no-var': 'error',
 
     /*
-     * 🔧 require or disallow method and property shorthand syntax for object literals
-     * https://eslint.org/docs/rules/object-shorthand
+     * require or disallow method and property shorthand syntax for object literals
+     * 🔧 https://eslint.org/docs/rules/object-shorthand
      */
     'object-shorthand': [
       'error',
@@ -139,20 +139,20 @@ module.exports = {
     ],
 
     /*
-     * 🔧 require using arrow functions for callbacks
-     * https://eslint.org/docs/rules/prefer-arrow-callback
+     * require using arrow functions for callbacks
+     * 🔧 https://eslint.org/docs/rules/prefer-arrow-callback
      */
     'prefer-arrow-callback': 'off',
 
     /*
-     * 🔧 require `const` declarations for variables that are never reassigned after declared
-     * https://eslint.org/docs/rules/prefer-const
+     * require `const` declarations for variables that are never reassigned after declared
+     * 🔧 https://eslint.org/docs/rules/prefer-const
      */
     'prefer-const': 'error',
 
     /*
-     * 🔧 require destructuring from arrays and/or objects
-     * https://eslint.org/docs/rules/prefer-destructuring
+     * require destructuring from arrays and/or objects
+     * 🔧 https://eslint.org/docs/rules/prefer-destructuring
      */
     'prefer-destructuring': 'error',
 
@@ -187,8 +187,8 @@ module.exports = {
     'require-yield': 'error',
 
     /*
-     * 🔧 enforce spacing between rest and spread operators and their expressions
-     * https://eslint.org/docs/rules/rest-spread-spacing
+     * enforce spacing between rest and spread operators and their expressions
+     * 🔧 https://eslint.org/docs/rules/rest-spread-spacing
      */
     'rest-spread-spacing': [
       'error',
@@ -196,8 +196,8 @@ module.exports = {
     ],
 
     /*
-     * 🔧 enforce sorted import declarations within modules
-     * https://eslint.org/docs/rules/sort-imports
+     * enforce sorted import declarations within modules
+     * 🔧 https://eslint.org/docs/rules/sort-imports
      */
     'sort-imports': 'off',
 
@@ -208,8 +208,8 @@ module.exports = {
     'symbol-description': 'error',
 
     /*
-     * 🔧 require or disallow spacing around embedded expressions of template strings
-     * https://eslint.org/docs/rules/template-curly-spacing
+     * require or disallow spacing around embedded expressions of template strings
+     * 🔧 https://eslint.org/docs/rules/template-curly-spacing
      */
     'template-curly-spacing': [
       'error',
@@ -217,8 +217,8 @@ module.exports = {
     ],
 
     /*
-     * 🔧 require or disallow spacing around the `*` in `yield*` expressions
-     * https://eslint.org/docs/rules/yield-star-spacing
+     * require or disallow spacing around the `*` in `yield*` expressions
+     * 🔧 https://eslint.org/docs/rules/yield-star-spacing
      */
     'yield-star-spacing': [
       'error',
