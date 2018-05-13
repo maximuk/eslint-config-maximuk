@@ -63,7 +63,7 @@ module.exports = {
     // 🔧 https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-anonymous-default-export.md
     'import/no-anonymous-default-export': 'off',
 
-    // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-commonjs.md
+    // 🔧 https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-commonjs.md
     'import/no-commonjs': 'off',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-amd.md

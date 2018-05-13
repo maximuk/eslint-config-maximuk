@@ -4,6 +4,10 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ['./rules/jsx-a11y/other.js'],
-  plugins: ['jsx-a11y'],
+  extends: [
+    './rules/jsx-a11y/other.js',
+  ],
+  plugins: [
+    'jsx-a11y',
+  ],
 };

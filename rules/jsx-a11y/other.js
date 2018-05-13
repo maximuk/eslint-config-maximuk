@@ -135,8 +135,12 @@ module.exports = {
           'tab',
           'treeitem',
         ],
-        table: ['grid'],
-        td: ['gridcell'],
+        table: [
+          'grid',
+        ],
+        td: [
+          'gridcell',
+        ],
       },
     ],
 
@@ -145,7 +149,9 @@ module.exports = {
       'error',
       {
         tags: [],
-        roles: ['tabpanel'],
+        roles: [
+          'tabpanel',
+        ],
       },
     ],
 
