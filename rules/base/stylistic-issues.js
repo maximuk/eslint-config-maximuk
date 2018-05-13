@@ -5,7 +5,10 @@ module.exports = {
      * enforce linebreaks after opening and before closing array brackets
      * 🔧 https://eslint.org/docs/rules/array-bracket-newline
      */
-    'array-bracket-newline': 'error',
+    'array-bracket-newline': [
+      'error',
+      'consistent',
+    ],
 
     /*
      * enforce consistent spacing inside array brackets
@@ -266,7 +269,7 @@ module.exports = {
     'max-len': [
       'error',
       {
-        code: 80,
+        code: 100,
         ignoreStrings: true,
         ignoreTemplateLiterals: true,
       },
@@ -753,7 +756,9 @@ module.exports = {
       'always',
       {
         block: {
-          exceptions: ['*'],
+          exceptions: [
+            '*',
+          ],
         },
       },
     ],

@@ -16,10 +16,7 @@ module.exports = {
      * Enforce consistent usage of destructuring assignment of props, state, and context
      * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/destructuring-assignment.md
      */
-    'react/destructuring-assignment': [
-      'error',
-      'always',
-    ],
+    'react/destructuring-assignment': 'off',
 
     /*
      * Enforce boolean attributes notation in JSX

@@ -154,7 +154,7 @@ module.exports = {
      * require destructuring from arrays and/or objects
      * 🔧 https://eslint.org/docs/rules/prefer-destructuring
      */
-    'prefer-destructuring': 'error',
+    'prefer-destructuring': 'off',
 
     /*
      * disallow `parseInt()` and `Number.parseInt()` in favor of binary, octal, and hexadecimal literals

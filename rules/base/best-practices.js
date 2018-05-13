@@ -257,6 +257,9 @@ module.exports = {
           0,
           1,
           2,
+          24,
+          60,
+          1000,
         ],
         ignoreArrayIndexes: true,
         detectObjects: false,
@@ -322,7 +325,9 @@ module.exports = {
       'error',
       {
         props: true,
-        ignorePropertyModificationsFor: ['result'],
+        ignorePropertyModificationsFor: [
+          'result',
+        ],
       },
     ],
 
