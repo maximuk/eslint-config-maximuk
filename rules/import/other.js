@@ -119,6 +119,9 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-useless-path-segments.md
     'import/no-useless-path-segments': 'error',
 
+    // 🔧 https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/dynamic-import-chunkname.md
+    'import/dynamic-import-chunkname': 'off',
+
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/exports-last.md
     'import/exports-last': 'error',
 
