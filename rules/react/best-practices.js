@@ -51,7 +51,7 @@ module.exports = {
 
     /*
      * Forbid target="_blank" attribute without rel="noopener noreferrer"
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-target-blank.md
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-target-blank.md
      */
     'react/jsx-no-target-blank': 'error',
 
