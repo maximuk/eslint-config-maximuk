@@ -59,8 +59,8 @@ module.exports = {
       },
     ],
 
-    // 🔧 https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
-    'jsx-a11y/label-has-for': 'error',
+    // 🔧 https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md
+    'jsx-a11y/label-has-associated-control': 'error',
 
     // 🔧 https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/lang.md
     'jsx-a11y/lang': 'off',

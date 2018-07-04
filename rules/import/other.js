@@ -42,6 +42,9 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/group-exports.md
     'import/group-exports': 'off',
 
+    // 🔧 https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-relative-parent-imports.md
+    'import/no-relative-parent-imports': 'off',
+
     /*
      * Forbid a module from importing itself
      * https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-self-import.md
