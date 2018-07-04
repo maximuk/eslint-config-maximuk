@@ -276,6 +276,20 @@ module.exports = {
     ],
 
     /*
+     * enforce a maximum number of line of code in a function
+     * 🔧 https://eslint.org/docs/rules/max-lines-per-function
+     */
+    'max-lines-per-function': [
+      'error',
+      {
+        max: 50,
+        skipBlankLines: true,
+        skipComments: true,
+        IIFEs: true,
+      },
+    ],
+
+    /*
      * enforce a maximum number of lines per file
      * 🔧 https://eslint.org/docs/rules/max-lines
      */
@@ -633,6 +647,12 @@ module.exports = {
         next: 'return',
       },
     ],
+
+    /*
+     * disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead.
+     * https://eslint.org/docs/rules/prefer-object-spread
+     */
+    'prefer-object-spread': 'error',
 
     /*
      * require quotes around object literal property names
