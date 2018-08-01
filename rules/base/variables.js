@@ -8,12 +8,6 @@ module.exports = {
     'init-declarations': 'off',
 
     /*
-     * disallow `catch` clause parameters from shadowing variables in the outer scope
-     * https://eslint.org/docs/rules/no-catch-shadow
-     */
-    'no-catch-shadow': 'off',
-
-    /*
      * disallow deleting variables
      * https://eslint.org/docs/rules/no-delete-var
      */
