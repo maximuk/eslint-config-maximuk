@@ -46,7 +46,7 @@ module.exports = {
     'consistent-return': [
       'error',
       {
-        treatUndefinedAsUnspecified: true,
+        treatUndefinedAsUnspecified: false,
       },
     ],
 
