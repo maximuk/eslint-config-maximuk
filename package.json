@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/maximuk/eslint-config-maximuk#readme",
   "peerDependencies": {
-    "babel-eslint": ">=8.2.5",
-    "eslint": ">=5.0.1"
+    "babel-eslint": ">=8.2.6",
+    "eslint": ">=5.2.0"
   },
   "devDependencies": {
-    "eslint-configurator": "0.1.6",
+    "eslint-configurator": "0.1.8",
     "husky": "^0.14.3"
   }
 }
