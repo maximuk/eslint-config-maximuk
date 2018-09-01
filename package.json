@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/maximuk/eslint-config-maximuk#readme",
   "peerDependencies": {
-    "babel-eslint": ">=8.2.6",
-    "eslint": ">=5.2.0"
+    "babel-eslint": ">=9.0.0",
+    "eslint": ">=5.5.0"
   },
   "devDependencies": {
     "eslint-configurator": "0.1.9",
