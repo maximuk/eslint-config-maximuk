@@ -14,6 +14,12 @@ module.exports = {
     'getter-return': 'error',
 
     /*
+     * disallow using an async function as a Promise executor
+     * https://eslint.org/docs/rules/no-async-promise-executor
+     */
+    'no-async-promise-executor': 'error',
+
+    /*
      * disallow `await` inside of loops
      * https://eslint.org/docs/rules/no-await-in-loop
      */
@@ -144,6 +150,12 @@ module.exports = {
     'no-irregular-whitespace': 'error',
 
     /*
+     * disallow characters which are made with multiple code points in character class syntax
+     * https://eslint.org/docs/rules/no-misleading-character-class
+     */
+    'no-misleading-character-class': 'off',
+
+    /*
      * disallow calling global object properties as functions
      * https://eslint.org/docs/rules/no-obj-calls
      */
@@ -196,6 +208,12 @@ module.exports = {
      * https://eslint.org/docs/rules/no-unsafe-negation
      */
     'no-unsafe-negation': 'error',
+
+    /*
+     * disallow assignments that can lead to race conditions due to usage of `await` or `yield`
+     * https://eslint.org/docs/rules/require-atomic-updates
+     */
+    'require-atomic-updates': 'off',
 
     /*
      * require calls to `isNaN()` when checking for `NaN`

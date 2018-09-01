@@ -144,7 +144,7 @@ module.exports = {
 
     /*
      * Limit to one expression per line in JSX
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-one-expression-per-line.md
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-one-expression-per-line.md
      */
     'react/jsx-one-expression-per-line': 'error',
 

@@ -119,7 +119,7 @@ module.exports = {
     // 🔧 https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-unassigned-import.md
     'import/no-unassigned-import': 'off',
 
-    // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-useless-path-segments.md
+    // 🔧 https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-useless-path-segments.md
     'import/no-useless-path-segments': 'error',
 
     // 🔧 https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/dynamic-import-chunkname.md

@@ -7,8 +7,6 @@ release:
 	git pull origin master
 	npm install
 	npm run check
-	git add package-lock.json
-	git commit --allow-empty -m "updated package-lock"
 	npm version $(VERSION)
 	npm publish
 	git push --follow-tags
