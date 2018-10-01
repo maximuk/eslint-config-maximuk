@@ -5,8 +5,12 @@
   "main": "base.js",
   "scripts": {
     "check": "eslint-configurator check",
-    "update": "eslint-configurator update",
-    "prepush": "npm run check"
+    "update": "eslint-configurator update"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run check"
+    }
   },
   "repository": {
     "type": "git",
@@ -24,6 +28,6 @@
   },
   "devDependencies": {
     "eslint-configurator": "0.1.9",
-    "husky": "^0.14.3"
+    "husky": "^1.1.0"
   }
 }
