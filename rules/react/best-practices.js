@@ -128,8 +128,8 @@ module.exports = {
     'react/no-render-return-value': 'error',
 
     /*
-     * Prevent usage of UNSAFE_ methods
-     * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-unsafe.md
+     * Prevent usage of unsafe lifecycle methods
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-unsafe.md
      */
     'react/no-unsafe': 'error',
 

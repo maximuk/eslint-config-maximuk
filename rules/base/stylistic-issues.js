@@ -483,7 +483,7 @@ module.exports = {
 
     /*
      * disallow all tabs
-     * https://eslint.org/docs/rules/no-tabs
+     * 🔧 https://eslint.org/docs/rules/no-tabs
      */
     'no-tabs': 'error',
 
@@ -671,12 +671,6 @@ module.exports = {
       'error',
       'single',
     ],
-
-    /*
-     * require JSDoc comments
-     * 🔧 https://eslint.org/docs/rules/require-jsdoc
-     */
-    'require-jsdoc': 'off',
 
     /*
      * enforce consistent spacing before and after semicolons
