@@ -144,7 +144,7 @@ module.exports = {
     'no-invalid-regexp': 'error',
 
     /*
-     * disallow irregular whitespace outside of strings and comments
+     * disallow irregular whitespace
      * 🔧 https://eslint.org/docs/rules/no-irregular-whitespace
      */
     'no-irregular-whitespace': 'error',
@@ -220,12 +220,6 @@ module.exports = {
      * https://eslint.org/docs/rules/use-isnan
      */
     'use-isnan': 'error',
-
-    /*
-     * enforce valid JSDoc comments
-     * 🔧 https://eslint.org/docs/rules/valid-jsdoc
-     */
-    'valid-jsdoc': 'error',
 
     /*
      * enforce comparing `typeof` expressions against valid strings

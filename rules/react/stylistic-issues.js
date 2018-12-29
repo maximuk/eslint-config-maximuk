@@ -167,6 +167,12 @@ module.exports = {
     'react/jsx-pascal-case': 'error',
 
     /*
+     * Enforce shorthand or standard form for React fragments
+     * 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-fragments.md
+     */
+    'react/jsx-fragments': ['error', 'syntax'],
+
+    /*
      * Disallow multiple spaces between inline JSX props
      * https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-props-no-multi-spaces.md
      */
