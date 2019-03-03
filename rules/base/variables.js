@@ -1,68 +1,48 @@
 module.exports = {
   rules: {
 
-    /*
-     * require or disallow initialization in variable declarations
-     * 🔧 https://eslint.org/docs/rules/init-declarations
-     */
+    // require or disallow initialization in variable declarations
+    // 🔧 https://eslint.org/docs/rules/init-declarations
     'init-declarations': 'off',
 
-    /*
-     * disallow deleting variables
-     * https://eslint.org/docs/rules/no-delete-var
-     */
+    // disallow deleting variables
+    // https://eslint.org/docs/rules/no-delete-var
     'no-delete-var': 'error',
 
-    /*
-     * disallow labels that share a name with a variable
-     * https://eslint.org/docs/rules/no-label-var
-     */
+    // disallow labels that share a name with a variable
+    // https://eslint.org/docs/rules/no-label-var
     'no-label-var': 'error',
 
-    /*
-     * disallow specified global variables
-     * 🔧 https://eslint.org/docs/rules/no-restricted-globals
-     */
+    // disallow specified global variables
+    // 🔧 https://eslint.org/docs/rules/no-restricted-globals
     'no-restricted-globals': 'off',
 
-    /*
-     * disallow identifiers from shadowing restricted names
-     * https://eslint.org/docs/rules/no-shadow-restricted-names
-     */
-    'no-shadow-restricted-names': 'off',
-
-    /*
-     * disallow variable declarations from shadowing variables declared in the outer scope
-     * 🔧 https://eslint.org/docs/rules/no-shadow
-     */
+    // disallow variable declarations from shadowing variables declared in the outer scope
+    // 🔧 https://eslint.org/docs/rules/no-shadow
     'no-shadow': 'off',
 
-    /*
-     * disallow initializing variables to `undefined`
-     * https://eslint.org/docs/rules/no-undef-init
-     */
-    'no-undef-init': 'error',
+    // disallow identifiers from shadowing restricted names
+    // https://eslint.org/docs/rules/no-shadow-restricted-names
+    'no-shadow-restricted-names': 'off',
 
     // disallow the use of undeclared variables unless mentioned in `/*global */` comments
     // 🔧 https://eslint.org/docs/rules/no-undef
     'no-undef': 'error',
 
-    /*
-     * disallow the use of `undefined` as an identifier
-     * https://eslint.org/docs/rules/no-undefined
-     */
+    // disallow initializing variables to `undefined`
+    // https://eslint.org/docs/rules/no-undef-init
+    'no-undef-init': 'error',
+
+    // disallow the use of `undefined` as an identifier
+    // https://eslint.org/docs/rules/no-undefined
     'no-undefined': 'off',
 
-    /*
-     * disallow unused variables
-     * 🔧 https://eslint.org/docs/rules/no-unused-vars
-     */
+    // disallow unused variables
+    // 🔧 https://eslint.org/docs/rules/no-unused-vars
     'no-unused-vars': 'error',
 
-    /*
-     * disallow the use of variables before they are defined
-     * 🔧 https://eslint.org/docs/rules/no-use-before-define
-     */
+    // disallow the use of variables before they are defined
+    // 🔧 https://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': 'error',
   },
 };
