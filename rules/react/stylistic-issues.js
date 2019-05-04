@@ -205,6 +205,10 @@ module.exports = {
     // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/prefer-es6-class.md
     'react/prefer-es6-class': 'error',
 
+    // Require read-only props.
+    // https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/prefer-read-only-props.md
+    'react/prefer-read-only-props': 'off',
+
     // Enforce stateless components to be written as a pure function
     // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/prefer-stateless-function.md
     'react/prefer-stateless-function': [
@@ -242,5 +246,13 @@ module.exports = {
         sortShapeProp: true,
       },
     ],
+
+    // State initialization in an ES6 class component should be in a constructor
+    // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/state-in-constructor.md
+    'react/state-in-constructor': 'off',
+
+    // Defines where React component static properties should be positioned.
+    // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/static-property-placement.md
+    'react/static-property-placement': 'off',
   },
 };
