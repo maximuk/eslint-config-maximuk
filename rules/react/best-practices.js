@@ -37,6 +37,10 @@ module.exports = {
     // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-target-blank.md
     'react/jsx-no-target-blank': 'error',
 
+    // Prevent JSX prop spreading
+    // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-props-no-spreading.md
+    'react/jsx-props-no-spreading': 'off',
+
     // Prevent React to be marked as unused
     // https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-uses-react.md
     'react/jsx-uses-react': 'error',
@@ -78,7 +82,7 @@ module.exports = {
     'react/no-is-mounted': 'error',
 
     // Prevent string definitions for references and prevent referencing this.refs
-    // https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-string-refs.md
+    // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/no-string-refs.md
     'react/no-string-refs': 'error',
 
     // Prevent usage of the return value of React.render
