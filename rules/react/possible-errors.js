@@ -6,7 +6,7 @@ module.exports = {
     'react/button-has-type': 'off',
 
     // Report missing `key` props in iterators/collection literals
-    // https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-key.md
+    // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-key.md
     'react/jsx-key': 'error',
 
     // Comments inside children section of tag should be placed inside braces

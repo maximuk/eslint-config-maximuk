@@ -45,6 +45,13 @@ module.exports = {
       },
     ],
 
+    // enforce consistent line breaks inside jsx curly
+    // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-curly-newline.md
+    'react/jsx-curly-newline': [
+      'error',
+      'consistent',
+    ],
+
     // Disallow or enforce spaces around equal signs in JSX attributes
     // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-equals-spacing.md
     'react/jsx-equals-spacing': [

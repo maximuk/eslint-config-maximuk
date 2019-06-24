@@ -279,9 +279,12 @@ module.exports = {
     // 🔧 https://eslint.org/docs/rules/new-cap
     'new-cap': 'error',
 
-    // require parentheses when invoking a constructor with no arguments
-    // https://eslint.org/docs/rules/new-parens
-    'new-parens': 'error',
+    // enforce or disallow parentheses when invoking a constructor with no arguments
+    // 🔧 https://eslint.org/docs/rules/new-parens
+    'new-parens': [
+      'error',
+      'always',
+    ],
 
     // require a newline after each call in a method chain
     // 🔧 https://eslint.org/docs/rules/newline-per-chained-call

@@ -177,7 +177,7 @@ module.exports = {
     // https://eslint.org/docs/rules/no-lone-blocks
     'no-lone-blocks': 'error',
 
-    // disallow `function` declarations and expressions inside loop statements
+    // disallow function declarations that contain unsafe references inside loop statements
     // https://eslint.org/docs/rules/no-loop-func
     'no-loop-func': 'error',
 
