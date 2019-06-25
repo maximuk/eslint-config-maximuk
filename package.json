@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/maximuk/eslint-config-maximuk#readme",
   "peerDependencies": {
-    "eslint": ">=6.0.0"
+    "eslint": ">=6.0.1"
   },
   "devDependencies": {
-    "eslint-configurator": "0.2.7",
+    "eslint-configurator": "0.2.8",
     "husky": "^2.5.0"
   }
 }
