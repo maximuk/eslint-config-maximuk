@@ -96,6 +96,10 @@ module.exports = {
     // 🔧 https://eslint.org/docs/rules/func-style
     'func-style': 'off',
 
+    // enforce line breaks between arguments of a function call
+    // 🔧 https://eslint.org/docs/rules/function-call-argument-newline
+    'function-call-argument-newline': 'off',
+
     // enforce consistent line breaks inside function parentheses
     // 🔧 https://eslint.org/docs/rules/function-paren-newline
     'function-paren-newline': [
@@ -356,12 +360,7 @@ module.exports = {
 
     // disallow the unary operators `++` and `--`
     // 🔧 https://eslint.org/docs/rules/no-plusplus
-    'no-plusplus': [
-      'error',
-      {
-        allowForLoopAfterthoughts: true,
-      },
-    ],
+    'no-plusplus': 'off',
 
     // disallow specified syntax
     // 🔧 https://eslint.org/docs/rules/no-restricted-syntax

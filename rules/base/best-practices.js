@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
 
-    // enforce getter and setter pairs in objects
+    // enforce getter and setter pairs in objects and classes
     // 🔧 https://eslint.org/docs/rules/accessor-pairs
     'accessor-pairs': 'off',
 
@@ -49,6 +49,10 @@ module.exports = {
     // require `default` cases in `switch` statements
     // 🔧 https://eslint.org/docs/rules/default-case
     'default-case': 'error',
+
+    // enforce default parameters to be last
+    // https://eslint.org/docs/rules/default-param-last
+    'default-param-last': 'off',
 
     // enforce consistent newlines before and after dots
     // 🔧 https://eslint.org/docs/rules/dot-location
@@ -346,6 +350,10 @@ module.exports = {
     // require using Error objects as Promise rejection reasons
     // 🔧 https://eslint.org/docs/rules/prefer-promise-reject-errors
     'prefer-promise-reject-errors': 'off',
+
+    // disallow use of the `RegExp` constructor in favor of regular expression literals
+    // https://eslint.org/docs/rules/prefer-regex-literals
+    'prefer-regex-literals': 'error',
 
     // enforce the consistent use of the radix argument when using `parseInt()`
     // 🔧 https://eslint.org/docs/rules/radix

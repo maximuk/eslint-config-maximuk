@@ -91,6 +91,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-func-assign
     'no-func-assign': 'error',
 
+    // disallow assigning to imported bindings
+    // https://eslint.org/docs/rules/no-import-assign
+    'no-import-assign': 'error',
+
     // disallow variable or `function` declarations in nested blocks
     // 🔧 https://eslint.org/docs/rules/no-inner-declarations
     'no-inner-declarations': 'error',
@@ -148,7 +152,7 @@ module.exports = {
     'require-atomic-updates': 'off',
 
     // require calls to `isNaN()` when checking for `NaN`
-    // https://eslint.org/docs/rules/use-isnan
+    // 🔧 https://eslint.org/docs/rules/use-isnan
     'use-isnan': 'error',
 
     // enforce comparing `typeof` expressions against valid strings
