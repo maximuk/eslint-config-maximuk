@@ -17,6 +17,10 @@ module.exports = {
     // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-duplicate-props.md
     'react/jsx-no-duplicate-props': 'error',
 
+    // Disallow unnecessary fragments
+    // https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-useless-fragment.md
+    'react/jsx-no-useless-fragment': 'error',
+
     // Disallow undeclared variables in JSX
     // 🔧 https://github.com/yannickcr/eslint-plugin-react/blob/HEAD/docs/rules/jsx-no-undef.md
     'react/jsx-no-undef': 'error',
