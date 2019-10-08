@@ -26,7 +26,7 @@
     "eslint": ">=6.0.1"
   },
   "devDependencies": {
-    "eslint-configurator": "0.2.8",
+    "eslint-configurator": "0.2.9",
     "husky": "^3.0.0"
   }
 }
