@@ -144,7 +144,7 @@ module.exports = {
     'no-unsafe-finally': 'error',
 
     // disallow negating the left operand of relational operators
-    // https://eslint.org/docs/rules/no-unsafe-negation
+    // 🔧 https://eslint.org/docs/rules/no-unsafe-negation
     'no-unsafe-negation': 'error',
 
     // disallow assignments that can lead to race conditions due to usage of `await` or `yield`
