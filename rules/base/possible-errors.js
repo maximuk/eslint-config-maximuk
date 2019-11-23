@@ -50,6 +50,10 @@ module.exports = {
     // https://eslint.org/docs/rules/no-dupe-args
     'no-dupe-args': 'error',
 
+    // disallow duplicate conditions in if-else-if chains
+    // https://eslint.org/docs/rules/no-dupe-else-if
+    'no-dupe-else-if': 'error',
+
     // disallow duplicate keys in object literals
     // https://eslint.org/docs/rules/no-dupe-keys
     'no-dupe-keys': 'error',
@@ -122,6 +126,10 @@ module.exports = {
     // disallow multiple spaces in regular expressions
     // https://eslint.org/docs/rules/no-regex-spaces
     'no-regex-spaces': 'error',
+
+    // disallow returning values from setters
+    // https://eslint.org/docs/rules/no-setter-return
+    'no-setter-return': 'error',
 
     // disallow sparse arrays
     // https://eslint.org/docs/rules/no-sparse-arrays

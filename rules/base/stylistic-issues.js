@@ -501,6 +501,10 @@ module.exports = {
       },
     ],
 
+    // disallow the use of `Math.pow` in favor of the `**` operator
+    // https://eslint.org/docs/rules/prefer-exponentiation-operator
+    'prefer-exponentiation-operator': 'off',
+
     // disallow using Object.assign with an object literal as the first argument and prefer the use of object spread instead.
     // https://eslint.org/docs/rules/prefer-object-spread
     'prefer-object-spread': 'error',

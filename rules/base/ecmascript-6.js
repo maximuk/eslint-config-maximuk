@@ -79,9 +79,14 @@ module.exports = {
     // https://eslint.org/docs/rules/no-this-before-super
     'no-this-before-super': 'error',
 
-    // disallow unnecessary computed property keys in object literals
-    // https://eslint.org/docs/rules/no-useless-computed-key
-    'no-useless-computed-key': 'error',
+    // disallow unnecessary computed property keys in objects and classes
+    // 🔧 https://eslint.org/docs/rules/no-useless-computed-key
+    'no-useless-computed-key': [
+      'error',
+      {
+        enforceForClassMembers: true,
+      },
+    ],
 
     // disallow unnecessary constructors
     // https://eslint.org/docs/rules/no-useless-constructor

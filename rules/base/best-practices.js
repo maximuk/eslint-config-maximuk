@@ -77,6 +77,10 @@ module.exports = {
       'always',
     ],
 
+    // require grouped accessor pairs in object literals and classes
+    // 🔧 https://eslint.org/docs/rules/grouped-accessor-pairs
+    'grouped-accessor-pairs': 'error',
+
     // require `for-in` loops to include an `if` statement
     // https://eslint.org/docs/rules/guard-for-in
     'guard-for-in': 'off',
@@ -99,6 +103,10 @@ module.exports = {
     // disallow lexical declarations in case clauses
     // https://eslint.org/docs/rules/no-case-declarations
     'no-case-declarations': 'error',
+
+    // disallow returning value from constructor
+    // https://eslint.org/docs/rules/no-constructor-return
+    'no-constructor-return': 'error',
 
     // disallow division operators explicitly at the beginning of regular expressions
     // https://eslint.org/docs/rules/no-div-regex
@@ -157,8 +165,8 @@ module.exports = {
     // 🔧 https://eslint.org/docs/rules/no-implicit-coercion
     'no-implicit-coercion': 'error',
 
-    // disallow variable and `function` declarations in the global scope
-    // https://eslint.org/docs/rules/no-implicit-globals
+    // disallow declarations in the global scope
+    // 🔧 https://eslint.org/docs/rules/no-implicit-globals
     'no-implicit-globals': 'off',
 
     // disallow the use of `eval()`-like methods
@@ -166,7 +174,7 @@ module.exports = {
     'no-implied-eval': 'error',
 
     // disallow `this` keywords outside of classes or class-like objects
-    // https://eslint.org/docs/rules/no-invalid-this
+    // 🔧 https://eslint.org/docs/rules/no-invalid-this
     'no-invalid-this': 'off',
 
     // disallow the use of the `__iterator__` property
