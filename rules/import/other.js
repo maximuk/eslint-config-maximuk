@@ -73,7 +73,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-amd.md
     'import/no-amd': 'off',
 
-    // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-duplicates.md
+    // 🔧 https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/no-duplicates.md
     'import/no-duplicates': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/HEAD/docs/rules/first.md
